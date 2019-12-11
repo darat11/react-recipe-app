@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
+
 import Home from "./pages/Home";
 import Recipes from "./pages/Recipes";
 import SingleRecipe from "./pages/SingleRecipe";
