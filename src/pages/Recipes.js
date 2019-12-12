@@ -27,7 +27,7 @@ export default class Recipes extends Component {
           handleChange={this.handleChange}
           handleSubmit={this.handleSubmit}
         />
-        <RecipeList />
+        <RecipeList recipes={this.state.recipes} />
       </>
     );
   }
